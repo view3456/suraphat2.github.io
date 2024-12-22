@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraphat's Cafe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('รูปคาเฟ่2.webp') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        header {
+            background: rgba(255, 126, 95, 0.8);
+            color: rgb(236, 226, 226);
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 5px 0 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        table, th, td {
+            border: 1px solid #931616;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: rgba(255, 126, 95, 0.8);
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .link a {
+            color: #ff5f94;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #ff5f94;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .link a:hover {
+            background: #ff5f94;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        .history {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(240, 240, 240, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .history h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .history p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .history ul {
+            padding-left: 20px;
+        }
+
+        .history ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const links = document.querySelectorAll('.link a');
+
+            links.forEach(link => {
+                link.addEventListener('mouseover', () => {
+                    link.style.transform = 'scale(1.1)';
+                });
+
+                link.addEventListener('mouseout', () => {
+                    link.style.transform = 'scale(1)';
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Suraphat's Cafe</h1>
+        <p>Owned by: สุรพัต อาจต้น</p>
+    </header>
+
+    <div class="container">
+        <img src="image/Aroma-MAR-C02-1080x599.jpg" width="1080" height="599" alt="Cafe banner">
+
+        <h2>About Our Cafe</h2>
+        <p>Suraphat's Cafe is a cozy place to relax and enjoy a variety of premium coffee, teas, and freshly baked goods. Located in the heart of the city, our cafe offers a serene atmosphere with modern decor and exceptional customer service. Whether you're looking for a quiet corner to work or a place to catch up with friends, Suraphat's Cafe is your perfect destination.</p>
+
+        <div class="history">
+            <h2>Our History</h2>
+            <p>Suraphat's Cafe was founded in 2020 by สุรพัต อาจต้น, a coffee enthusiast with a vision to create a space where people could connect, relax, and enjoy premium beverages and delicious food. Starting as a small neighborhood cafe, it quickly gained popularity due to its dedication to quality and customer satisfaction.</p>
+
+            <p>Over the years, Suraphat's Cafe has expanded to include more seating options, a beautiful outdoor garden, and even a workshop space for events. Our mission has always been to provide not just great coffee, but a memorable experience for everyone who walks through our doors.</p>
+
+            <h3>Milestones:</h3>
+            <ul>
+                <li><strong>2020:</strong> Cafe grand opening with a team of three passionate baristas.</li>
+                <li><strong>2021:</strong> Launched our first monthly coffee brewing workshop.</li>
+                <li><strong>2022:</strong> Expanded our menu to include healthy options and artisanal teas.</li>
+                <li><strong>2023:</strong> Recognized as the Best Community Cafe in the city by the Local Business Awards.</li>
+            </ul>
+
+            <p>Today, Suraphat's Cafe continues to thrive as a beloved gathering spot for locals and tourists alike. We are committed to innovation and excellence in everything we do, from crafting the perfect cup of coffee to creating a warm and welcoming environment.</p>
+        </div>
+
+        <h3>Our Offerings:</h3>
+        <ul>
+            <li>Specialty Coffee: From classic espresso to unique latte art creations.</li>
+            <li>Artisan Teas: A selection of herbal, green, and black teas.</li>
+            <li>Freshly Baked Pastries: Croissants, muffins, and cakes made daily.</li>
+            <li>Healthy Options: Smoothie bowls, fresh salads, and sandwiches.</li>
+        </ul>
+
+        <h3>Highlights:</h3>
+        <ul>
+            <li>Free Wi-Fi for all customers.</li>
+            <li>Outdoor seating area with a garden view.</li>
+            <li>Monthly workshops on coffee brewing and latte art.</li>
+            <li>Live music performances every Friday evening.</li>
+        </ul>
+
+        <h2>Our Features</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>User-friendly Interface</td>
+                    <td>Easy to navigate and interact.</td>
+                </tr>
+                <tr>
+                    <td>Responsive Design</td>
+                    <td>Accessible on all devices.</td>
+                </tr>
+                <tr>
+                    <td>Secure Environment</td>
+                    <td>We value your privacy and
